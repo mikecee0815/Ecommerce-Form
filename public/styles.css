@@ -1,0 +1,42 @@
+label,  input{
+	display: block;
+	width: 100%;
+}
+label{
+	padding: 5px;
+}
+input{
+	padding:10px;
+	padding-bottom: 15px;
+	width: 90%;
+}
+form{
+	width: 300px;
+	margin:0 auto;
+}
+
+input[type=submit]{
+	display: block;
+	margin:0 auto;
+	margin-top: 15px;
+	border-radius: 30px;
+	width: 90%;
+	font-size: large;
+	background-color:yellow;
+}
+h1{
+	text-align: center;
+}
+fieldset{
+	margin-top: 10px;
+	background-color: #ddd;
+}
+input:required{
+	border-left: 10px solid blue;
+}
+input:focus:invalid{
+	border-left: 10px solid red;
+}
+input:focus:valid{
+	border-left: 10px solid green;
+}
